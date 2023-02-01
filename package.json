@@ -1,0 +1,30 @@
+{
+  "name": "react-practise-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirinchen/react-practise-basic.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Kirin",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kirinchen/react-practise-basic/issues"
+  },
+  "homepage": "https://github.com/kirinchen/react-practise-basic#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-router": "^6.8.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0"
+  }
+}
