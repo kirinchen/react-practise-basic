@@ -1,26 +1,31 @@
-import React from 'react';
+import React, { MouseEventHandler } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { JSDocAugmentsTag } from 'typescript';
 
 function App() {
+  const testRow = <TestRow name='123dd'></TestRow>
+
+
+  console.log(typeof testRow);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {testRow}
     </div>
   );
 }
+
+const testEvent = (e: any): void => {
+  console.log('HHHHH=' + e);
+}
+
+const TestRow = (props: any): JSX.Element => (
+  <div>
+    xxxx {props.name}
+    <button onClick={testEvent}> oooo </button>
+    <img src={require('./download.png')}></img>
+    <img src={logo}></img>
+  </div>)
+
 
 export default App;
