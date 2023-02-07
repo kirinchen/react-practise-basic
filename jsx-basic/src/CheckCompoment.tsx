@@ -11,4 +11,6 @@ const Loading2 = (props: any): JSX.Element => (
     </div>
 )
 
+
+
 export default { Loading, Loading2 } 
