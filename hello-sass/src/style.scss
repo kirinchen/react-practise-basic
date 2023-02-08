@@ -1,0 +1,16 @@
+$defaultColor : #f66;
+
+.wrap {
+    width: 100%;
+    height: 200px;
+    background: $defaultColor;
+    h1, h2,h3 {
+        font-size : 36px;
+        color: #66f;
+    }
+    border: {
+        style:solid;
+        width: 5px;
+        color: #ccc;
+    }
+}
