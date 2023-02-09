@@ -1,0 +1,19 @@
+.useColor{
+    color: #ae3c3c;
+}
+
+.moduleClazzInit{
+    background: #4cce2b;
+    composes : wrap from './style.scss'
+}
+
+.moduleClazz{
+    font-size: 50px;
+    color-scheme : useColor;
+    composes: moduleClazzInit;
+}
+
+:global(.globalDiv){
+    font-size: 50px;
+    
+}
